@@ -1,0 +1,29 @@
+# Core ML dependencies
+transformers>=4.37.0
+torch>=2.0.0
+torchvision>=0.15.0
+accelerate>=0.25.0
+
+# Gradio web interface
+gradio>=4.0.0
+
+# Image processing
+pillow>=9.0.0
+
+# Qwen VL model utilities
+qwen-vl-utils>=0.0.2
+einops
+sentencepiece
+
+# Model downloading
+huggingface-hub>=0.20.0
+requests
+
+# Orientation detection model
+timm>=0.9.0
+
+# Data processing
+pandas>=1.5.0
+
+# Note: 'spaces' is HuggingFace Spaces specific and not needed for RunPod
+# The @spaces.GPU decorator will need to be removed or mocked for RunPod
